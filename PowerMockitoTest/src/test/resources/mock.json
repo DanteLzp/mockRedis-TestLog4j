@@ -1,0 +1,44 @@
+{
+	"case_mock": [
+		{
+			"System_all_0": 
+				{
+					"Statement": {
+						"name": "System_all_0",
+						"catalog": "BASE",
+						"policy": {
+							"Statement": [
+								{
+									"Action": [
+										"cdn:server:*"
+									],
+									"Effect": "Allow"
+								}
+							]
+						}
+					}
+				}
+			
+		},
+		{
+			"Custom_123456789_0": 
+				{
+					"Statement": {
+						"name": "Custom_123456789_0",
+						"catalog": "BASE",
+						"policy": {
+							"Statement": [
+								{
+									"Action": [
+										"cdn:server:*"
+									],
+									"Effect": "Deny"
+								}
+							]
+						}
+					}
+				}
+			
+		}
+	]
+}

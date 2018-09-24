@@ -1,0 +1,14 @@
+{
+	"name": "System_all_0",
+	"catalog": "BASE",
+	"policy": {
+		"Statement": [
+			{
+				"Action": [
+					"cdn:server:*"
+				],
+				"Effect": "Allow"
+			}
+		]
+	}
+}
